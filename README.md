@@ -1,6 +1,6 @@
 # K_Means_Clustering
 
-This repository contains an example of implementing the K-means clustering algorithm in Python using scikit-learn. The code demonstrates how to cluster data points and visualize the clustering results.
+This repository contains an example of implementing the K-means clustering algorithm in Python using scikit-learn. The code demonstrates how to cluster data points and visualise the clustering results.
 
 ## Table of Contents
 - [Description](#description)
@@ -15,7 +15,7 @@ In this example, we generate a sample dataset using scikit-learn. We then prepro
 
 We iterate over different values of k (number of clusters) and calculate the silhouette score for each clustering solution. We select the number of clusters with the highest silhouette score as the optimal number of clusters.
 
-After determining the optimal number of clusters, we create a K-means clustering object with the selected number of clusters and fit the model to the data. We obtain the cluster labels and centroids. We then visualize the clustering results by plotting the data points colored according to their assigned clusters, with centroids indicated by red crosses.
+After determining the optimal number of clusters, we create a K-means clustering object with the selected number of clusters and fit the model to the data. We obtain the cluster labels and centroids. We then visualise the clustering results by plotting the data points colored according to their assigned clusters, with centroids indicated by red crosses.
 
 Finally, we evaluate the clustering results using the silhouette score and print the optimal number of clusters and the calculated silhouette score.
 
@@ -37,7 +37,7 @@ Finally, we evaluate the clustering results using the silhouette score and print
    
 The script will generate sample data, preprocess it, determine the optimal number of clusters, perform the clustering, and display the results.
 
-2. Adjust the parameters and customize the code as needed for your own dataset.
+2. Adjust the parameters and customise the code as needed for your own dataset.
 
 ## Requirements
 
